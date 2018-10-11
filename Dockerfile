@@ -3,7 +3,7 @@ FROM openjdk:8-jre-alpine
 WORKDIR /home
 
 ENV componentName "EnablerConfigService"
-ENV componentVersion 2.0.0
+ENV componentVersion 2.1.0
 
 RUN apk --no-cache add \
 	git \
